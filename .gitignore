@@ -1,0 +1,85 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+*.dylib
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+var/
+*.log
+*.pot
+*.py[cod]
+
+# Django
+*.sqlite3
+*.db
+db.sqlite3
+*.bak
+*.swp
+*.swo
+
+# Django migrations
+*/migrations/*.pyc
+*/migrations/*~
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+coverage.xml
+nosetests.xml
+*.cover
+*.hypothesis/
+.coverage.*
+*.tox
+*.nox
+
+# Test reports
+htmlcov/
+*.log
+*.pot
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Flask
+instance/
+.webassets-cache
+
+# PyCharm
+.idea/
+
+# Editor backups
+*~.swp
+*~.swo
