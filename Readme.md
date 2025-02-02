@@ -1,7 +1,7 @@
-# Django FAQ Management System
+# FAQ Management System
 
 ## Overview
-The **Django FAQ Management System** is designed to efficiently manage and display FAQs in a multi-language format. It uses advanced techniques such as caching, rich-text formatting, and automated translations, which allow for a seamless and scalable FAQ management experience. The system also includes a REST API for programmatically accessing the FAQs in various languages.
+The ** FAQ Management System** is designed to efficiently manage and display FAQs in a multi-language format. It uses advanced techniques such as caching, rich-text formatting, and automated translations, which allow for a seamless and scalable FAQ management experience. The system also includes a REST API for programmatically accessing the FAQs in various languages.
 
 ## Problem Statement
 - **Challenge**: Managing FAQs with support for multiple languages, while ensuring scalability, performance, and ease of use.
