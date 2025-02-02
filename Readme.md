@@ -76,35 +76,30 @@ To enable caching with Redis, ensure that Redis is installed and running on your
 ```bash
 docker-compose up
 ```
-### Step 4: Create a Superuser
-Create a superuser to access the Django admin interface:
 
-```bash
-python manage.py createsuperuser
-```
-
-### Step 5: Run Migrations
+### Step 4: Run Migrations
 Apply the migrations to set up the database:
 
 ```bash
 python manage.py migrate
 ```
 
-### Step 6: Start the Development Server
-Start the development server:
+### Step 5:  Create Superuser
+Create a superuser to access the Django Admin Panel:
 
 ```bash
-python manage.py runserver
+python manage.py createsuperuser
 ```
-### Step 7: Start the Development Server
-Start the development server:
+
+### Step 6: Run the Development Server
+Run the Django development server to start the application:
 
 ```bash
 python manage.py runserver
 ```
 The application should now be running on http://127.0.0.1:8000/.
 
-### Step 8: Access the Admin Panel
+### Step 7: Access the Admin Panel
 Open http://127.0.0.1:8000/admin/ in your browser and log in using the superuser credentials you created earlier.
 
 ### API Usage
